@@ -195,7 +195,8 @@
       <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-pencil-ruler text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Conception sur mesure</h3><p class="text-sm text-gray-600 dark:text-gray-400">Nous étudions vos besoins et réalisons des plans précis avant fabrication.</p></div>
       <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-industry text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Fabrication artisanale</h3><p class="text-sm text-gray-600 dark:text-gray-400">Découpe et façonnage du verre dans notre atelier avec du matériel professionnel.</p></div>
       <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-truck-fast text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Livraison & pose</h3><p class="text-sm text-gray-600 dark:text-gray-400">Nous livrons et installons vos menuiseries vitrées à Charleroi et dans les communes voisines.</p></div>
-      <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-shield-haltered text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Verre de sécurité</h3><p class="text-sm text-gray-600 dark:text-gray-400">Verre feuilleté, trempé, conforme aux normes pour garde-corps, portes, etc.</p></div>
+      <!-- **** MODIFICATION 1 : icône "Verre de sécurité" corrigée **** -->
+      <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-shield text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Verre de sécurité</h3><p class="text-sm text-gray-600 dark:text-gray-400">Verre feuilleté, trempé, conforme aux normes pour garde-corps, portes, etc.</p></div>
       <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-paint-roller text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Finition soignée</h3><p class="text-sm text-gray-600 dark:text-gray-400">Joints silicone professionnels, profilés aluminium, finitions impeccables.</p></div>
       <div class="bg-white dark:bg-surface-dark border rounded-2xl p-6 shadow-card"><i class="fas fa-clock text-primary text-2xl mb-3"></i><h3 class="font-bold text-lg">Intervention rapide</h3><p class="text-sm text-gray-600 dark:text-gray-400">Disponible 24h/24 et 7j/7 pour les urgences (vitres cassées, etc.) à Charleroi et environs.</p></div>
     </div>
@@ -209,7 +210,7 @@
   </div>
 </section>
 
-<!-- AVANT/APRÈS avec vos images -->
+<!-- AVANT/APRÈS -->
 <section id="realisations" class="py-16 bg-secondary-bg dark:bg-gray-900">
   <div class="container mx-auto px-4">
     <div class="text-center mb-12 reveal">
@@ -218,9 +219,7 @@
     </div>
     <div class="max-w-4xl mx-auto reveal">
       <div class="comparison-slider" id="comparison-slider">
-        <!-- Image Avant -->
         <img src="https://i.imgur.com/F4hPZ3Z.jpeg" alt="Avant vitrerie" class="before">
-        <!-- Image Après -->
         <div class="after"><img src="https://i.imgur.com/itWJktC.jpeg" alt="Après vitrerie"></div>
         <div class="divider" id="divider"></div>
       </div>
@@ -271,20 +270,21 @@
       </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- MODIFICATION 2 : suppression des dates dans les avis -->
       <div class="border border-gray-200 dark:border-gray-700 p-6 rounded-xl shadow-sm bg-white dark:bg-surface-dark">
-        <div class="flex justify-between items-start mb-4"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-charcoal rounded-full flex items-center justify-center text-white font-bold">C</div><div><div class="font-bold text-sm">Claire M.</div><div class="text-xs text-gray-500">Il y a 3 jours</div></div></div></div>
+        <div class="flex justify-between items-start mb-4"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-charcoal rounded-full flex items-center justify-center text-white font-bold">C</div><div><div class="font-bold text-sm">Claire M.</div></div></div></div>
         <div class="flex text-primary text-xs mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
         <p class="text-sm text-gray-600 dark:text-gray-300 italic mb-4">"Portes en verre style atelier posées avec une finition impeccable. Très professionnel !"</p>
         <div class="text-xs text-green-600 flex items-center gap-1"><span class="material-icons text-xs">check_circle</span> Avis vérifié</div>
       </div>
       <div class="border border-gray-200 dark:border-gray-700 p-6 rounded-xl shadow-sm bg-white dark:bg-surface-dark">
-        <div class="flex justify-between items-start mb-4"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-charcoal rounded-full flex items-center justify-center text-white font-bold">J</div><div><div class="font-bold text-sm">Jean-Philippe D.</div><div class="text-xs text-gray-500">Il y a 1 semaine</div></div></div></div>
+        <div class="flex justify-between items-start mb-4"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-charcoal rounded-full flex items-center justify-center text-white font-bold">J</div><div><div class="font-bold text-sm">Jean-Philippe D.</div></div></div></div>
         <div class="flex text-primary text-xs mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
         <p class="text-sm text-gray-600 dark:text-gray-300 italic mb-4">"Cloison de bureau en verre : isolation acoustique parfaite, pose rapide. Vivement recommandé."</p>
         <div class="text-xs text-green-600 flex items-center gap-1"><span class="material-icons text-xs">check_circle</span> Avis vérifié</div>
       </div>
       <div class="border border-gray-200 dark:border-gray-700 p-6 rounded-xl shadow-sm bg-white dark:bg-surface-dark">
-        <div class="flex justify-between items-start mb-4"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-charcoal rounded-full flex items-center justify-center text-white font-bold">S</div><div><div class="font-bold text-sm">Sophie L.</div><div class="text-xs text-gray-500">Il y a 2 semaines</div></div></div></div>
+        <div class="flex justify-between items-start mb-4"><div class="flex items-center gap-3"><div class="w-10 h-10 bg-charcoal rounded-full flex items-center justify-center text-white font-bold">S</div><div><div class="font-bold text-sm">Sophie L.</div></div></div></div>
         <div class="flex text-primary text-xs mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
         <p class="text-sm text-gray-600 dark:text-gray-300 italic mb-4">"Crédence de cuisine sur mesure et paroi de douche italienne : magnifique et facile à entretenir."</p>
         <div class="text-xs text-green-600 flex items-center gap-1"><span class="material-icons text-xs">check_circle</span> Avis vérifié</div>
